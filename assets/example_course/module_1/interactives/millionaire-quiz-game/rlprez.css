@@ -1,0 +1,71 @@
+/*!
+ * ActivePresenter HTML5 Output File
+ * Copyright (c) Atomi Systems, Inc. All rights reserved.
+ * https://atomisystems.com/activepresenter/
+ * Version: 8.1.0
+ * Date: 2020.07.16
+ */
+#wy93dfQW .ap-focused {
+	outline: 1px dashed black;
+	outline-offset: 1px;
+}
+#wy93dfQW p {
+	margin: 0;
+}
+#wy93dfQW ol,ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#wy93dfQW {
+	-webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+/* Animation */
+@-webkit-keyframes 
+pulsate {  0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+ opacity: 0.8;
+}
+ 45% {
+ -webkit-transform: scale(1.75);
+ transform: scale(1.75);
+ opacity: 0;
+}
+}
+@keyframes 
+pulsate {  0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+ opacity: 0.8;
+}
+ 45% {
+ -webkit-transform: scale(1.75);
+ transform: scale(1.75);
+ opacity: 0;
+}
+}
+
+.ap-slide .ap-hotspot {
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	border-radius: 100%;
+	transition: all .3s ease;
+}
+
+.ap-slide .ap-hotspot .ap-circle {
+	display: block;
+	position: absolute;
+	margin: -1px auto auto -1px;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	border-radius: 50%;
+	border: 1px solid;
+	opacity: 0;
+	-webkit-animation: pulsate 3s ease-out infinite;
+	animation: pulsate 3s ease-out infinite;
+}
