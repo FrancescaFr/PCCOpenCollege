@@ -1,4 +1,4 @@
-# PCCOpenCollege
+# PCC Open College
 Educational Content Relating to the PCC Open College Initiative
 
 
