@@ -8,7 +8,7 @@ From github.com
 1. Make sure you have a github account (https://github.com/)
 2. Navigate to PCC Open College Repo (https://github.com/FrancescaFr/PCCOpenCollege)
 3. Request access privilages from repo owner
-4. Upload your asset/s in the appropriate location in the github repo. 
+4. Upload your asset/s in the appropriate location in the github repo (avoid spaces in file names). 
 2. Hit commit at bottom of page.
 
 ## How to embed content in google site:
