@@ -1,0 +1,155 @@
+<?xml version="1.0" standalone="no" ?>
+   <manifest identifier="ID-4D0847BF-0079-48A9-B963-C7830530800F" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" >
+      <metadata>
+         <lom 	xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+            <general>
+               <identifier>ID-4D0847BF-0079-48A9-B963-C7830530800F</identifier>
+               <title>
+                  <langstring xml:lang="en-US"></langstring>
+               </title>
+               <catalogentry>
+                  <catalog>TechSmith Camtasia 2018 Video Course</catalog>
+                  <entry>
+                     <langstring xml:lang="en-US"></langstring>
+                  </entry>
+               </catalogentry>
+               <language>en</language>
+               <description>
+                  <langstring xml:lang="en-US"></langstring>
+               </description>
+               <keyword>
+                  <langstring xml:lang="en-US">TechSmith Camtasia 2018 Video Course</langstring>
+                  <langstring xml:lang="en-US"></langstring>
+               </keyword>
+               <aggregationlevel>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">3</langstring>
+                  </value>
+               </aggregationlevel>
+            </general>
+            <lifecycle>
+               <version>
+                  <langstring xml:lang="x-none">1.0</langstring>
+               </version>
+               <status>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">Final</langstring>
+                  </value>
+               </status>
+               <contribute>
+                  <role>
+                     <source>
+                        <langstring xml:lang="x-none">LOMv1.0</langstring>
+                     </source>
+                     <value>
+                        <langstring xml:lang="x-none"></langstring>
+                     </value>
+                  </role>
+                  <centity>
+                     <vcard>BEGIN:vCard ORG: END:vCard</vcard>
+                  </centity>
+                  <date>
+                     <datetime>2020-08-06</datetime>
+                  </date>
+               </contribute>
+            </lifecycle>
+            <metametadata>
+               <metadatascheme>ADL SCORM 1.2</metadatascheme>
+               <language>en</language>
+            </metametadata>
+            <technical>
+               <format>text/html</format>
+               <location type="URI">.</location>
+               <duration>
+                  <datetime>00:01:54.63</datetime>
+               </duration>
+            </technical>
+            <educational>
+               <learningresourcetype>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">Exercise</langstring>
+                  </value>
+               </learningresourcetype>
+               <typicallearningtime>
+                  <datetime>00:01:54.63</datetime>
+               </typicallearningtime>
+            </educational>
+            <rights>
+               <cost>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">no</langstring>
+                  </value>
+               </cost>
+               <copyrightandotherrestrictions>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">no</langstring>
+                  </value>
+               </copyrightandotherrestrictions>
+               <description>
+                  <langstring xml:lang="en-US">No Copy Rights</langstring>
+               </description>
+            </rights>
+            <classification>
+               <purpose>
+                  <source>
+                     <langstring xml:lang="x-none">LOMv1.0</langstring>
+                  </source>
+                  <value>
+                     <langstring xml:lang="x-none">Idea</langstring>
+                  </value>
+               </purpose>
+               <description>
+                  <langstring xml:lang="en-US"></langstring>
+               </description>
+               <keyword>
+                  <langstring xml:lang="en-US"></langstring>
+               </keyword>
+            </classification>
+         </lom>
+      </metadata>
+      <organizations default="TOC1"> 
+         <organization identifier="TOC1"> 
+            <title></title>
+            <item identifier="I_SCO0" identifierref="SCO0">
+            <title>(null)</title>
+            <adlcp:masteryscore>80</adlcp:masteryscore>
+         </item>
+
+         </organization>
+      </organizations>
+      <resources>
+         <resource identifier="SCO0" type="webcontent" adlcp:scormtype="sco" href="Sequencing a beat.html">
+            <file href="Sequencing a beat.html"/>
+            <dependency identifierref="ALLRESOURCES" />
+         </resource>
+                   
+         <resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="asset">
+            <file href="Sequencing a beat.html" />
+<file href="scripts/techsmith-smart-player.min.js" />
+<file href="skins/techsmith-smart-player.min.css" />
+<file href="Sequencing a beat_embed.css" />
+<file href="Sequencing a beat_Player.html" />
+<file href="media/Sequencing a beat.mp4" />
+<file href="Sequencing a beat_config.xml" />
+<file href="media/FirstFrame.png" />
+
+         </resource>
+      </resources>
+   </manifest>
