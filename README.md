@@ -15,6 +15,7 @@ From github.com
 
 1. Navigate to the (html) file you wish to embed
 2. copy its local path.
+![local path](Path_Location.png)
 
 Use iframe and insert source from github site: 
 
